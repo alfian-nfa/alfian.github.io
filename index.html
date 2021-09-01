@@ -18,7 +18,7 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" data-aos="fade-down">
       <div class="container">
         <img src="img/my_image.jpg" alt="Alfian Azis" width="35" class="rounded-circle me-2" />
         <a class="navbar-brand" href="#">Alfian Azis</a>
@@ -46,9 +46,9 @@
     <!-- End Navbar -->
     <!-- Jumbotron -->
     <section class="jumbotron bg-dark text-center">
-      <img data-aos-delay="300" data-aos="fade-in" data-aos-duration="1000" src="img/my_image.jpg" alt="Alfian Azis" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4 text-light" data-aos-delay="500" data-aos="fade-right" data-aos-duration="1000">Alfian Azis</h1>
-      <p class="lead text-light mb-0" data-aos-delay="500" data-aos="fade-left" data-aos-duration="1000">Programmer | Web Developer</p>
+      <img data-aos-delay="300" data-aos="fade-in" src="img/my_image.jpg" alt="Alfian Azis" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4 text-light" data-aos-delay="500" data-aos="fade-right">Alfian Azis</h1>
+      <p class="lead text-light mb-0" data-aos-delay="500" data-aos="fade-left">Programmer | Web Developer</p>
     </section>
     <!-- End Jumbotron -->
 
@@ -62,12 +62,12 @@
         ></path>
       </svg>
       <div id="about" class="container pad-top">
-        <div class="row text-center mb-3" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+        <div class="row text-center mb-3" data-aos="fade-down" data-aos-offset="200">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5" data-aos-delay="500" data-aos="fade-right" data-aos-offset="210" data-aos-duration="1200">
+        <div class="row justify-content-center fs-5" data-aos-delay="500" data-aos="fade-right" data-aos-offset="210">
           <div class="col-md-6a">
             <p>Hi, i'm Alfian Azis from Indonesia</p>
             <p>
@@ -89,14 +89,14 @@
     <!-- Project -->
     <section class="bg-dark text-light">
       <div id="projects" class="container pad-top">
-        <div class="row text-center mb-3" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+        <div class="row text-center mb-3" data-aos="fade-down" data-aos-offset="200">
           <div class="col">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-3" data-aos-delay="750" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-            <div class="card">
+          <div class="col-md-4 mb-3">
+            <div class="card project-list">
               <img src="img/projects/1.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
                 <h5 class="card-title">HC Information Systems, Develop of Human Resources Websites</h5>
@@ -107,8 +107,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos-delay="1000" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-            <div class="card">
+          <div class="col-md-4 mb-3">
+            <div class="card project-list">
               <img src="img/projects/2.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
                 <h5 class="card-title">OPTIMIS, Develop of databases and back-end websites</h5>
@@ -119,8 +119,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos-delay="1250" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-            <div class="card">
+          <div class="col-md-4 mb-3">
+            <div class="card project-list">
               <img src="img/projects/3.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -141,7 +141,7 @@
         ></path>
       </svg>
       <div id="contact" class="container pad-top">
-        <div class="row text-center mb-3" data-aos="fade-down" data-aos-duration="1000">
+        <div class="row text-center mb-3" data-aos="fade-down">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
@@ -149,19 +149,19 @@
         <div class="row justify-content-center">
           <div class="col-md-6">
             <form>
-              <div class="mb-3" data-aos-delay="750" data-aos="fade-right" data-aos-duration="750">
+              <div class="mb-3" data-aos-delay="250" data-aos="fade-up">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" />
               </div>
-              <div class="mb-3" data-aos-delay="1000" data-aos="fade-right" data-aos-duration="750">
+              <div class="mb-3" data-aos-delay="500" data-aos="fade-up">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="email" />
               </div>
-              <div class="mb-3" data-aos-delay="1250" data-aos="fade-right" data-aos-duration="750">
+              <div class="mb-3" data-aos-delay="750" data-aos="fade-up">
                 <label for="pesan" class="form-label">Messages</label>
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div>
-              <button data-aos-delay="1250" data-aos="fade-up" data-aos-duration="500" type="submit" class="btn btn-primary">Send Messages</button>
+              <button type="submit" class="btn btn-primary">Send Messages</button>
             </form>
           </div>
         </div>
@@ -184,7 +184,18 @@
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      const projectList = document.querySelectorAll('.project-list');
+
+      projectList.forEach((list, i) =>{
+        list.dataset.aos = 'fade-up';
+        list.dataset.aosDelay = i * 300;
+
+      });
+
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
     </script>
   
   </body>
