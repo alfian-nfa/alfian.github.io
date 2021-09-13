@@ -245,7 +245,7 @@ nav ul li a:hover {
   }
   .row {
     margin-left: 2px;
-    margin-right: 2px;
+    margin-right: 0px;
   }
   .jumbotron {
     padding-top: 0rem;
