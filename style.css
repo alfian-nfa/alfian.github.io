@@ -241,16 +241,18 @@ nav ul li a:hover {
     margin-left: 0rem;
   }
   body {
-  overflow-x: hidden;
-}
+    overflow-x: hidden;
+  }
+  .row {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
   .jumbotron {
     padding-top: 0rem;
   }
   .pad-top {
-    padding: 2rem 2rem 1rem 2rem;
   }
   .pad-top2 {
-    padding: 1rem 0.5rem 1rem 0.5rem;
   }
   .image-banner {
     height: auto;
@@ -292,8 +294,9 @@ nav ul li a:hover {
   .layer-0 {
     position: relative;
     z-index: 2;
-    margin-top: 20%;
+    margin-top: 0%;
     margin-left: 0%;
+    padding-top: 20%;
   }
 
   .layer-1 {
