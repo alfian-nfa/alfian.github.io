@@ -240,6 +240,9 @@ nav ul li a:hover {
   .margin {
     margin-left: 0rem;
   }
+  body {
+  overflow-x: hidden;
+}
   .jumbotron {
     padding-top: 0rem;
   }
