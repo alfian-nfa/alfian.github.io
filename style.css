@@ -372,8 +372,10 @@ nav ul li a:hover {
 }
 
 @keyframes triangle {
-  100% {
-    -webkit-transform: rotate(-360deg);
+  0% {
+    transform: rotate(-360deg);
+  }
+  50% {
     transform: rotate(-360deg);
   }
 }
