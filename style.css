@@ -35,7 +35,7 @@
   height: 200px;
   margin-top: -20%;
   margin-left: 0%;
-  transform-origin: 40% 50%;
+  transform-origin: 20% 25%;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 1s;
 }
@@ -376,6 +376,6 @@ nav ul li a:hover {
     transform: rotate(0);
   }
   100% {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
