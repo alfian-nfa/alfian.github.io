@@ -35,7 +35,7 @@
   height: 200px;
   margin-top: -20%;
   margin-left: 0%;
-  transform-origin: 80px 80px;
+  transform-origin: 85px 78px;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 1s;
 }
