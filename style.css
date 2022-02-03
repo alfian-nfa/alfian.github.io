@@ -38,11 +38,11 @@
   width: 200px;
   height: 200px;
   margin-top: -20%;
-  margin-left: 0%;
+  margin-left: 5%;
   transform-origin: 95px 78px;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 1s;
-  transform: translateZ(100px);
+  transform: translateZ(50px);
   transform-style: preserve-3d;
 }
 .layer-2 {
