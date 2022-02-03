@@ -44,11 +44,11 @@
     <!-- Jumbotron -->
     <section class="jumbotron bg-gelap text-light">
       <div class="row flex-row-reverse">
-        <div class="col-md-5 text-center bg-banner">
-          <div class="layer-0" data-tilt-full-page-listening>
+        <div class="col-md-5 text-center bg-banner" data-tilt-full-page-listening>
+          <div class="layer-0">
             <img src="img/my_image.png" data-aos="fade-in" data-aos-delay="1000" alt="Alfian Azis" class="rounded-circle image-banner" />
           </div>
-          <div class="layer-1" data-tilt-full-page-listening>
+          <div class="layer-1">
             <svg xmlns="http://www.w3.org/2000/svg" data-aos="fade-in" data-aos-delay="500" width="134" height="110" viewBox="0 0 174 150" fill="none">
               <path d="M6.45964 146.5L87 7L167.54 146.5H6.45964Z" stroke="#FF4C29" stroke-width="7"/>
             </svg>
@@ -62,13 +62,13 @@
               ></path>
             </svg>
           </div>
-          <div class="layer-3" data-tilt-full-page-listening></div>
-          <div class="layer-3a" data-tilt-full-page-listening>
+          <div class="layer-3"></div>
+          <div class="layer-3a">
             <svg xmlns="http://www.w3.org/2000/svg" data-aos="fade-in" data-aos-delay="200" width="125" height="125" viewBox="0 0 125 125" fill="none">
               <rect x="1" y="1" width="123" height="123" stroke="#082032" stroke-width="2"/>
             </svg>
           </div>
-          <div class="layer-3b" data-tilt-full-page-listening>
+          <div class="layer-3b">
             <svg xmlns="http://www.w3.org/2000/svg" data-aos="zoom-in" data-aos-delay="400" width="83" height="83" viewBox="0 0 83 83" fill="none">
               <rect x="1.5" y="1.5" width="80" height="80" stroke="#FF4C29" stroke-width="3"/>
             </svg>
@@ -198,34 +198,9 @@
     </script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
-      VanillaTilt.init(document.querySelector(".layer-1"), {
-        max: 40,
+      VanillaTilt.init(document.querySelector(".bg-banner"), {
+        max: 20,
         speed: 100,
-      });
-      
-      VanillaTilt.init(document.querySelector(".layer-3b"), {
-        max: 30,
-        speed: 400,
-        scale: 1.2,
-        reverse: true;
-      });
-      
-      VanillaTilt.init(document.querySelector(".layer-3"), {
-        max: 10,
-        speed: 300,
-        reverse: true;
-      });
-      
-      VanillaTilt.init(document.querySelector(".layer-3a"), {
-        max: 10,
-        speed: 300,
-        reverse: true;
-      });
-      
-      VanillaTilt.init(document.querySelector(".layer-0"), {
-        max: 10,
-        speed: 300,
-        reverse: true;
       });
     </script>
   </body>
