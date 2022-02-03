@@ -30,6 +30,7 @@
   z-index: 4;
   margin-top: 5%;
   margin-left: -15%;
+  transform: translateZ(30px);
 }
 
 .layer-1 {
