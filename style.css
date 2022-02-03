@@ -34,7 +34,7 @@
   width: 200px;
   height: 200px;
   margin-top: -20%;
-  margin-left: 10%;
+  margin-left: 0%;
   transform-origin: 33% 36%;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 1s;
