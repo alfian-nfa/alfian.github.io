@@ -22,7 +22,7 @@
 }
 
 .layer-0 {
-  position: absolute;
+  position: relative;
   margin-top: 5%;
   margin-left: -15%;
   transform-style: preserve-3d;
@@ -30,7 +30,7 @@
 }
 
 .layer-1 {
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 200px;
   margin-top: -20%;
