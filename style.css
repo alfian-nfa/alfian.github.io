@@ -376,6 +376,6 @@ nav ul li a:hover {
     transform: rotate(-180deg);
   }
   50% {
-    transform: rotate(-180deg);
+    transform: rotate(-360deg);
   }
 }
