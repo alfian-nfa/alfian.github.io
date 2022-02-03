@@ -72,7 +72,7 @@
   height: 100px;
   margin-top: -15%;
   margin-left: 10%;
-  transform: translate3d(-1px, 0, 25px) rotate(-27deg) ;
+  transform: translate3d(-1px, 0, 25px);
   transform-style: preserve-3d;
 }
 
