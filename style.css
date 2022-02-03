@@ -35,10 +35,11 @@
   height: 200px;
   margin-top: -20%;
   margin-left: 0%;
-  transform: translate3d(22%, 32%, 50px);
+  transform: translateZ(50px);
   transform-style: preserve-3d;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
+/*   22%, 32%,  */
 }
 .layer-2 {
   position: relative;
