@@ -38,6 +38,8 @@
   margin-top: -20%;
   margin-left: 15%;
   transform-origin: 22% 32%;
+  transform-style: preserve-3d;
+  transform: translateZ(100px);
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
 }
