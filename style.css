@@ -34,7 +34,7 @@
   width: 200px;
   height: 200px;
   margin-top: -20%;
-  margin-left: 15%;
+  margin-left: 0%;
   transform: translate3d(22%, 32%, 50px);
   transform-style: preserve-3d;
   animation: triangle 1.5s ease-in-out 1;
@@ -309,7 +309,7 @@ nav ul li a:hover {
     width: 160px;
     height: 160px;
     margin-top: -20%;
-    margin-left: 20%;
+    margin-left: 0%;
     transform-origin: 22% 32%;
     animation: triangle 1.5s ease-in-out 1;
     animation-delay: 0.5s;
