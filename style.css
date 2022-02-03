@@ -38,6 +38,8 @@
   transform-origin: 95px 78px;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 1s;
+  transform: translateZ(100px);
+  transform-style: preserve-3d;
 }
 .layer-2 {
   position: relative;
