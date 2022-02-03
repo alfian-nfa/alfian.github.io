@@ -48,7 +48,7 @@
           <div class="layer-0" data-aos="fade-in" data-aos-delay="1300">
             <img src="img/my_image.png" alt="Alfian Azis" class="rounded-circle image-banner" />
           </div>
-          <div class="layer-1" data-tilt data-tilt-full-page-listening>
+          <div class="layer-1"  data-aos="zoom-in" data-aos-delay="400" data-tilt data-tilt-full-page-listening>
             <svg xmlns="http://www.w3.org/2000/svg" width="174" height="150" viewBox="0 0 174 150" fill="none">
               <path d="M6.45964 146.5L87 7L167.54 146.5H6.45964Z" stroke="#FF4C29" stroke-width="7"/>
             </svg>
@@ -205,12 +205,13 @@
     <script type="text/javascript">
       VanillaTilt.init(document.querySelector(".layer-1"), {
         max: 35,
-        speed: 200
+        speed: 200,
+        reverse: true,
       });
       
       VanillaTilt.init(document.querySelector(".layer-3b"), {
-        max: 15,
-        speed: 500
+        max: 25,
+        speed: 400
       });
     </script>
   </body>
