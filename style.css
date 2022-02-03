@@ -21,6 +21,10 @@
   max-width: 300px;
 }
 
+.layer {
+  transform-style: preserve-3d;
+}
+
 .layer-0 {
   position: relative;
   z-index: 4;
