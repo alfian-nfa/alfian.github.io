@@ -35,7 +35,7 @@
   height: 200px;
   margin-top: -20%;
   margin-left: 15%;
-  transform-origin: 22% 32%;
+  transform: translate3d(22% 32% 20px);
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
 }
@@ -44,6 +44,7 @@
   z-index: 2;
   width: 230px;
   height: 230px;
+  transform: translateZ(20px);
   margin-top: -85%;
   margin-left: 40%;
 }
