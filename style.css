@@ -21,6 +21,10 @@
   max-width: 300px;
 }
 
+.bg-banner {
+  transform-style: preserve-3d;
+}
+
 .layer-0 {
   position: relative;
   z-index: 4;
@@ -75,7 +79,6 @@
   margin-top: -15%;
   margin-left: 10%;
   transform: translate3d(-1px, 0, 100px);
-  transform-style: preserve-3d;
 }
 
 .image {
