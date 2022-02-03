@@ -206,5 +206,12 @@
       //       gsap.from(".jumbotron img", { duration: 1, y: -100, ease: "back(3)", opacity: 0 });
       //       gsap.from(".navbar", { duration: 0.5, y: "-100%", opacity: 0 });
     </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".image"), {
+        max: 25,
+        speed: 400
+      });
+    </script>
   </body>
 </html>
