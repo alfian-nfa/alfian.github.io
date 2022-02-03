@@ -45,7 +45,7 @@
     <section class="jumbotron bg-gelap text-light">
       <div class="row flex-row-reverse">
         <div class="col-md-5 text-center bg-banner">
-          <div class="layer-0">
+          <div class="layer-0" data-tilt data-tilt-full-page-listening>
             <img src="img/my_image.png" data-aos="fade-in" data-aos-delay="1300" alt="Alfian Azis" class="rounded-circle image-banner" />
           </div>
           <div class="layer-1" data-tilt data-tilt-full-page-listening>
@@ -215,6 +215,11 @@
       });
       
       VanillaTilt.init(document.querySelector(".layer-3a"), {
+        max: 20,
+        speed: 600
+      });
+      
+      VanillaTilt.init(document.querySelector(".layer-0"), {
         max: 20,
         speed: 600
       });
