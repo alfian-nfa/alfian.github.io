@@ -39,10 +39,10 @@
   height: 200px;
   margin-top: -20%;
   margin-left: 5%;
-  transform-origin: 95px 78px;
+  transform-origin: translate3d(95px, 78px, 50px);
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 1s;
-  transform: translateZ(50px);
+/*   transform: translateZ(50px); */
   transform-style: preserve-3d;
 }
 .layer-2 {
