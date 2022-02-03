@@ -35,7 +35,7 @@
   height: 200px;
   margin-top: -20%;
   margin-left: 15%;
-  transform-origin: 22% 32%;
+  transform-origin: translate3d(22%, 32%, 100px);
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
 }
@@ -72,7 +72,7 @@
   height: 100px;
   margin-top: -15%;
   margin-left: 10%;
-  transform: rotate(-27deg) translate3d(-1px, 0, 100px);
+  transform: rotate(-27deg) translate(-1px, 0);
 /*   transform-style: preserve-3d; */
 }
 
