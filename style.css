@@ -43,8 +43,8 @@
   transform-origin: 95px 78px;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
-  transform: translateZ(70px);
-  filter: blur(1rem);
+  transform: translateZ(100px);
+  filter: blur(0.5rem);
 }
 .layer-2 {
   position: relative;
