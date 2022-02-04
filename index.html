@@ -212,9 +212,10 @@
       });
       
       let destroyBox = document.querySelector(".bg-banner");
+      let w = $(window).width();
       VanillaTilt.init(destroyBox);
 
-      $(window).width() < 480 ? destroyBox.vanillaTilt.destroy() : VanillaTilt.init(destroyBox);
+      w < 480 ? destroyBox.vanillaTilt.destroy() : VanillaTilt.init(destroyBox);
 
     </script>
 
