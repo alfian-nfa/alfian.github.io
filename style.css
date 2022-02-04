@@ -44,7 +44,7 @@
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
   transform: translateZ(150px);
-  filter: blur(0.2rem);
+  filter: blur(0.25rem);
 }
 .layer-2 {
   position: relative;
@@ -85,8 +85,11 @@
 .layer-4 {
   position: relative;
   z-index: 3;
-  margin-top: -15%;
-  margin-left: 40%;
+  margin-top: -18%;
+  margin-left: 30%;
+  transform: translateZ(150px);
+  filter: blur(0.15rem);
+}
 }
 
 .image {
