@@ -202,19 +202,24 @@
       //       gsap.from(".navbar", { duration: 0.5, y: "-100%", opacity: 0 });
     </script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script type="text/javascript">
-      const w = window.innerWidth;
-      
+    <script type="text/javascript">      
       VanillaTilt.init(document.querySelector(".bg-banner"), {
         max: 7,
         speed: 100,
       });
       
-      var destroyBox = document.querySelector("#bg-banner");
-      VanillaTilt.init(destroyBox);
-      
-      var mq = window.matchMedia("(max-width: 1025px)");
-      mq.matches ? destroyBox.vanillaTilt.destroy() : VanillaTilt.init(destroyBox);
+      function destroyTilt() {
+          var tiltElements = document.querySelectorAll(`[data-tilt]`);
+          var mq = window.matchMedia("(max-width: 1025px)");
+          if (mq.matches) {
+              for (var i = 0, len = tiltElements.length; i < len; i++) {
+                  tiltElements[i].vanillaTilt.destroy();
+              }
+          } else {
+              console.log('pedal');
+          }
+      }
+      destroyTilt();
 
     </script>
 
