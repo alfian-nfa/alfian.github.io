@@ -214,13 +214,8 @@
       let destroyBox = document.querySelector(".bg-banner");
       VanillaTilt.init(destroyBox);
 
-      document.querySelector("#destroy-button").addEventListener("click", function () {
-          destroyBox.vanillaTilt.destroy();
-      });
+      $(window).width() < 480 ? destroyBox.vanillaTilt.destroy() : VanillaTilt.init(destroyBox);
 
-      document.querySelector("#enable-button").addEventListener("click", function () {
-          VanillaTilt.init(destroyBox);
-      });
     </script>
 
   </body>
