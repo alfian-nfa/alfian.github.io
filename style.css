@@ -85,8 +85,8 @@
 .layer-4 {
   position: relative;
   z-index: 2;
-  margin-top: -85%;
-  margin-left: 50%;
+  margin-top: -65%;
+  margin-left: 40%;
   transform: translateZ(50px);
 }
 
