@@ -86,9 +86,9 @@
   position: relative;
   z-index: 3;
   margin-top: -18%;
-  margin-left: 30%;
-  transform: translateZ(100px);
-  filter: blur(0.15rem);
+  margin-left: 20%;
+  transform: translateZ(80px);
+  filter: blur(0.1rem);
 }
 }
 
