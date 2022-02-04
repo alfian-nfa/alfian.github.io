@@ -44,7 +44,7 @@
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
   transform: translateZ(100px);
-  filter: blur(0.1rem);
+  filter: blur(0.15rem);
 }
 .layer-2 {
   position: relative;
