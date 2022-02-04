@@ -216,12 +216,17 @@
       
     </script>
     <script type="text/javascript">
-//       if ($(window).width() < 960) {
+      $(window).resize(function(){
+    var w = $(window).width();
+
+    if (w < 960) {
          alert('Less than 960');
-//       }
-//       else {
-//          alert('More than 960');
-//       }
-      </script>
+      }
+      else {
+         alert('More than 960');
+      }
+});
+
+    </script>
   </body>
 </html>
