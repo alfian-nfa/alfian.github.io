@@ -204,16 +204,18 @@
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
       const w = window.innerWidth;
-      const destroyBox = document.querySelector("#bg-banner");
-      VanillaTilt.init(destroyBox);
       
       VanillaTilt.init(document.querySelector(".bg-banner"), {
         max: 7,
         speed: 100,
       });
       
-      $(window).width() < 960 ? destroyBox.vanillaTilt.destroy() : VanillaTilt.init(destroyBox);
+      var destroyBox = document.querySelector("#bg-banner");
+      VanillaTilt.init(destroyBox);
       
+      var mq = window.matchMedia("(max-width: 1025px)");
+      mq.matches ? destroyBox.vanillaTilt.destroy() : VanillaTilt.init(destroyBox);
+
     </script>
 
   </body>
