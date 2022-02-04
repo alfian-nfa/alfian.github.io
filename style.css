@@ -43,8 +43,8 @@
   transform-origin: 95px 58px;
   animation: triangle 1.5s ease-in-out 1;
   animation-delay: 0.5s;
-  transform: translateZ(100px);
-  filter: blur(0.3rem);
+  transform: translateZ(150px);
+  filter: blur(0.2rem);
 }
 .layer-2 {
   position: relative;
@@ -379,9 +379,9 @@ nav ul li a:hover {
 
 @keyframes triangle {
   0% {
-    transform: translateZ(70px) rotate(0);
+    transform: translateZ(150px) rotate(0);
   }
   100% {
-    transform: translateZ(70px) rotate(360deg);
+    transform: translateZ(150px) rotate(360deg);
   }
 }
