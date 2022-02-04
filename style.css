@@ -84,10 +84,9 @@
 
 .layer-4 {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   margin-top: -65%;
   margin-left: 40%;
-  transform: translateZ(50px);
 }
 
 .image {
