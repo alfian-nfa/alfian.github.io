@@ -95,7 +95,10 @@
           <div class="row fs-5 margin">
             <div class="col-md-3 text-center btn-animate">
               <br />
-              <a type="button" class="btn btn-email btn-md" href="mailto:alfian.azis95@gmail.com"><i class="bi bi-envelope-fill"></i> Email Me</a>
+              <a type="button" class="btn btn-email btn-md" href="mailto:alfian.azis95@gmail.com"><i class="bi bi-envelope-fill"></i> Email Me</a> 
+              <a type="button" id="destroy-button" class="btn btn-email btn-md" > destroy</a> 
+              <a type="button" id="enable-button" class="btn btn-email btn-md" > enable</a> 
+
             </div>
             <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1400">
               <br />
@@ -208,19 +211,16 @@
         speed: 100,
       });
       
-      function destroyTilt() {
-          var tiltElements = document.querySelectorAll(`[data-tilt]`);
-          var mq = window.matchMedia("(max-width: 1025px)");
-          if (mq.matches) {
-              for (var i = 0, len = tiltElements.length; i < len; i++) {
-                  tiltElements[i].vanillaTilt.destroy();
-              }
-          } else {
-              console.log('pedal');
-          }
-      }
-      destroyTilt();
+      let destroyBox = document.querySelector("#destroy-box");
+      VanillaTilt.init(destroyBox);
 
+      document.querySelector("#destroy-button").addEventListener("click", function () {
+          destroyBox.vanillaTilt.destroy();
+      });
+
+      document.querySelector("#enable-button").addEventListener("click", function () {
+          VanillaTilt.init(destroyBox);
+      });
     </script>
 
   </body>
