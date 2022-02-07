@@ -87,7 +87,7 @@
   z-index: 3;
   margin-top: -18%;
   margin-left: 20%;
-  transform: translateZ(80px);
+  transform: translateZ(40px);
   filter: blur(0.1rem);
 }
 
