@@ -239,6 +239,12 @@ nav ul li a:hover {
   transform: scale(0);
 }
 
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: auto;
+}
 /* tablet size */
 
 @media (max-width: 768px) {
